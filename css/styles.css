@@ -1,0 +1,143 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
+/***************************CLASS SELECTORS***************************/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<DIV ELEMENTS>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  line-height: 3;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  line-height: 2;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<IMAGE ELEMENTS>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-pic {
+  margin-top: 50px;
+  width: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-img_1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img_2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<TEXT ELEMENTS>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.profile-summary {
+  margin: auto;
+  width: 30%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+
+
+.BUTTON_HDV {
+  background-color: #66BFBF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+      padding: 20px;
+      text-decoration: none;
+      color: #11999E;
+}
+
+.bottom-text {
+  color: #EAF6F6;
+}
+
+.credit-text {
+  color: #11999E;
+}
+
+.credit {
+  color: #EAF6F6;
+  text-decoration: none;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<BORDER ELEMENTS>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.hr-style {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 40px;
+  margin: 80px auto;
+}
